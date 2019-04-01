@@ -3,9 +3,9 @@ import { Route, Switch } from "react-router-dom";
 import AppliedRoute from "./components/AppliedRoute";
 import Home from "./containers/Home";
 import Login from "./containers/Login"
-import Signup from "./containers/Signup"
+import NewNote from "./containers/NewNote"
 import NotFound from "./containers/NotFound";
-import NewNote from "./containers/NewNote";
+import Signup from "./containers/Signup";
 
 export default ({childProps}) =>
   <Switch>
