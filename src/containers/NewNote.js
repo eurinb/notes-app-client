@@ -45,7 +45,7 @@ export default class NewNote extends Component {
             const attachment = this.file
                 ? await s3Upload(this.file)
                 : null;
-                
+
             await this.createNote({
                 attachment,
                 content: this.state.content
