@@ -47,6 +47,7 @@ export default class NewNote extends Component {
                 : null;
                 
             await this.createNote({
+                attachment,
                 content: this.state.content
             });
             this.props.history.push("/");
